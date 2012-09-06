@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ElectricalsFrontend</title>
+  <%= stylesheet_link_tag    "application", "bootstrap"%>
+  <%= javascript_include_tag "application", "bootstrap" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<%= render "layouts/header" %>
+	<%= yield %>
+	<%= render "layouts/footer" %>
+	</body>
+</html>
