@@ -12,38 +12,72 @@
     <div class="header_resize">
       <div class="logo">
         <%= image_tag("Logo.jpg", height: "126"  , width: "198.4" ) %>
-</div>
-
+      </div>
+      <!--Menu Navigation -->
       <div class="menu_nav">
        <ul>
-          <li class="active"><a href="index.html">Home<br />
-            <span>home page</span></a></li>
-          <li class="services-menu-drop">
-            <div class="dropdown" style"position:relative; top:50px;">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <i id= "img-down" class="icon-chevron-down" style="display:none"></i> <br /> <span>information</span>
-                </a>
+          <li class="active menu_nav_item">
+            <a href="index.html">
+              Home<br />
+              <span>home page</span>
+            </a>
+          </li>
+          <li class="menu_nav_item">
+            <div class="dropdown">
+              <a class="dropdown-toggle" id="services-menu-drop" data-toggle="dropdown" href="#">
+                Services <br />
+                <span>information</span>
+              </a>
+              <!-- Drop Down Menu -->
               <ul class="dropdown-menu">
-                <li class="">
-                  <a href="#one">one</a>
+                <li>
+                  <a class="drop_down_items" href="#one">Service one</a>
                 </li>
-                  <li class="divider"></li>
-                  <li class="">
-                  <a href="#three">three</a>
+                <li>
+                  <a class="drop_down_items" href="#three">Service two</a>
+                </li>
+                <li>
+                  <a class="drop_down_items" href="#three">Service three</a>
+                </li>
+                <li>
+                  <a class="drop_down_items" href="#three">Service four</a>
+                </li>
+                <li>
+                  <a class="drop_down_items" href="#three">Service five</a>
+                </li>
+                <li>
+                  <a class="drop_down_items" href="#three">Service six</a>
+                </li>
+                <li>
+                  <a class="drop_down_items" href="#three">Service Seven</a>
                 </li>
               </ul>
             </div> 
           </li>
-          <li><a href="about.html">About Us<br />
-            <span>company info</span></a></li>
-          <li><a href="gallery.html">Gallery<br />
-            <span>case studies</span></a></li>
-          <li><a href="contact.html" class="last">Contact Us<br />
-            <span>call us now</span></a></li>
+          <li class="menu_nav_item">
+            <a href="about.html">
+              About Us<br />
+              <span>company info</span>
+            </a>
+          </li>
+          <li class="menu_nav_item">
+            <a href="gallery.html">
+              Gallery<br />
+              <span>case studies</span>
+            </a>
+          </li>
+          <li class="menu_nav_item">
+            <a href="contact.html" class="last">
+              Contact Us<br />
+              <span>call us now</span>
+          </a>
+        </li>
       </ul>     
         <div class="clr"></div>
       </div>
+      <i id= "img-down" class="icon-chevron-down" style="position:relative;left:266px;top:75px;display:none"></i>
       <div class="clr"></div>
-</div>
+    </div>
   </div>
     <div id="main_show"> <%= image_tag("check_img3.jpg") %></div>
 
@@ -53,13 +87,16 @@
 
 <script type="text/javascript">
              
-$('.services-menu-drop').hover(function(){
-  $('.img-down').show();
-  },
-  function(){
-    $('.img-down').hide();
-  }
-);
+  $(document).ready(function() {
+    $('#services-menu-drop').hover(function(){
+      $('#img-down').show();
+      },
+      function(){
+        $('#img-down').hide();
+      }
+    );  
+});
+
 </script>
 
 <!-- <div class="dropdown">
