@@ -2,7 +2,7 @@
 
 body { margin:0; padding:0; width:100%; color:#9a9a9a; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
 html, .main { padding:0; margin:0; background:#fff url(images/main_bg.gif) top repeat-x;}
-.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+.clear_elements { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 .logo img { margin:0 10px 0 0;}
 .logo {
 	margin-top:-5px;
@@ -58,6 +58,9 @@ a.rm, a.com { margin-left:8px; padding:9px 12px; background:url(images/a_bg.gif)
 	background-color: white;
 }
 
+.thumbnail_selection{
+	margin-top:20px;
+}
 
 
 
