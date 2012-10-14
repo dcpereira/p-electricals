@@ -6,13 +6,17 @@
 <title>Precision Electrical</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="assets/application.css" rel="stylesheet" type="text/css" />
+<link href="assets/application.js" rel="script" type="text/javascript" />
+<script type="text/javascript" src="assets/application.js"></script>
 </head>
 <body>
 <div class="main">
   <div class="header">
     <div class="header_resize">
       <div class="logo">
-        <%= image_tag("Logo.jpg", height: "126"  , width: "198.4" ) %>
+        <a href="/">
+          <img src="assets/Logo.jpg" style="height:126px;width:198.4px" alt="logo">
+        </a>
       </div>
       <!--Menu Navigation -->
       <div class="menu_nav">
@@ -80,38 +84,66 @@
       <div class="clr"></div>
     </div>
   </div>
-    <div id="main_show"> <%= image_tag("check_img3.jpg") %></div>
-
+    <div id="main_show"> <img src="assets/check_img3.jpg"></div>
 <div clas="clear_elements" ></div>
+<div class="container content">
+  <h2 style="text-align:center">Fire and Safety</h2>
 
+  <h4>Fire Alarms</h4>
+   <span style="float:left;width:20%;height:20%"><img  src="assets/fire-alarm-system.jpg"></span>
+  <p style="width:905px;position:relative;left:20px">Both national and european laws demand a minimum level of fire alarm and protection equipment and that it be maintained to accredited standards for all public and commercial buildings. Precision Electricals supplies, installs, maintains and even offers weekly or monthly testing and Systems monitoring. For a more taylored quote and any other questions please contact us.</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<h4>Emergency Lighting</h4>
+   <span style="float:left;width:17%;height:17%">
+    <img  src="assets/em_lighting.jpeg">
+  </span>
+<p style="width:905px;position:relative;left:20px">
+  Emergency lighting covers a broad range of equipment whose aim is to ensure that exits and access are easily found. Emergency lights are battery-backed lighting devices which commmence to operate automatically when a building experiences a power failure or in the event of fire.Emergency lights are a legal requirement in both new and existing commercial and high occupancy residential buildings.
+  Precision Electrical will ensure that you meet all legal obligations and requirements as well as help you find the right solution.
+</p>
+<br/>
+<br/>
+<br/>
 
-
-<script type="text/javascript">
-             
-  $(document).ready(function() {
-    $('#services-menu-drop').hover(function(){
-      $('#img-down').show();
-      },
-      function(){
-        $('#img-down').hide();
-      }
-    );  
-});
-
-</script>
-
+<h4>Safety Signs</h4>
+<span style="float:left;width:15%;height:15%">
+    <img  src="assets/safety_signs.gif">
+  </span>
+<p style="width:905px;position:relative;left:20px">
+  Early warning systems, fire alarms and extubguishers will do the job intended. But signs will let people know which tools are right for the job, where those tools are and how to get there and use those tools. For example which type of fire extinguisher should be used for an electrical fire or having signs showing where exits or access doors are available. This is why safety signs are so important, and we can help you get the most out of how to use signage in your building correctly.
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<h4>Place we've installed systems before:</h4>
+<ul>    
+  <li>London Offices</li>
+  <li>Council Buildings</li>
+  <li>Universities</li>
+  <li>Hospitals and Clinics</li>
+  <li>Warehouses</li>
+  <li>Leisure Centers</li>
+</ul>
+<br/>
+<br/>
+</div>
 
 <div class="clear_elements"></div>
   <div class="fbg">
     <div class="fbg_resize">
       <div class="span3">
         <h2>Image Gallery</h2>
-        <a href="#"><%= image_tag("gallery_1.jpg", width: "58", height: "58", alt: "pix") %></a> 
-        <a href="#"><%= image_tag("gallery_2.jpg", width: "58", height: "58", alt: "pix") %></a> 
-        <a href="#"><%= image_tag("gallery_3.jpg", width: "58", height: "58", alt: "pix") %></a> 
-        <a href="#"><%= image_tag("gallery_4.jpg", width: "58", height: "58", alt: "pix") %></a> 
-        <a href="#"><%= image_tag("gallery_5.jpg", width: "58", height: "58", alt: "pix") %></a> 
-        <a href="#"><%= image_tag("gallery_6.jpg", width: "58", height: "58", alt: "pix") %></a> 
+        <a href="#"><img src="assets/gallery_1.jpg" style="width:58px;height:58px" alt="Gallery Thumbnail 1"></a> 
+        <a href="#"><img src="assets/gallery_2.jpg" style="width:58px;height:58px" alt="Gallery Thumbnail 2"></a> 
+        <a href="#"><img src="assets/gallery_3.jpg" style="width:58px;height:58px" alt="Gallery Thumbnail 3"></a> 
+        <a href="#"><img src="assets/gallery_4.jpg" style="width:58px;height:58px" alt="Gallery Thumbnail 4"></a> 
+        <a href="#"><img src="assets/gallery_5.jpg" style="width:58px;height:58px" alt="Gallery Thumbnail 5"></a> 
+        <a href="#"><img src="assets/gallery_6.jpg" style="width:58px;height:58px" alt="Gallery Thumbnail 6"></a> 
+
       </div>
       <div class="span4" style="margin-left:50px">
         <h2><span>Lorem Ipsum</span></h2>
@@ -124,9 +156,9 @@
         <p>Call us: +1 (123) 444-5677</p>
         <div class=" span3 social" style="margin-left:-20px">
           <br/>
-          <a href="#"><%= image_tag("facebook.png", width: "40", height: "40", alt: "pix") %></a> 
-          <a href="#"><%= image_tag("linkedin.png", width: "40", height: "40", alt: "pix") %></a> 
-          <a href="#"><%= image_tag("twitter.png", width: "40", height: "40", alt: "pix") %></a> 
+          <a href="#"><img src="assets/facebook.png" style="width:40px;height:40px" alt="Social Network Link 1"></a>
+          <a href="#"><img src="assets/linkedin.png" style="width:40px;height:40px" alt="Social Network Link 2"></a>
+          <a href="#"><img src="assets/twitter.png" style="width:40px;height:40px" alt="Social Network Link 3"></a>
         </div>
       </div>
       <div class="clear_elements"></div>
@@ -140,3 +172,19 @@
 </div>
 </body>
 </html>
+
+
+
+<script type="text/javascript">
+             
+  $(document).ready(function() {
+    $('#services-menu-drop').hover(function(){
+      $('#img-down').show();
+      },
+      function(){
+        $('#img-down').hide();
+      }
+    );  
+  });
+
+</script>
