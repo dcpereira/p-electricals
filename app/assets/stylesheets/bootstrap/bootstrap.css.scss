@@ -7,10 +7,10 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-/*$iconSpritePath: asset-url('glyphicons-halflings.png', image);
-*/
+$iconSpritePath: asset-url('glyphicons-halflings.png', image);
 
-$iconWhiteSpritePath: asset-url('glyphicons-halflings-white.png', image);
+
+/*$iconWhiteSpritePath: asset-url('glyphicons-halflings-white.png', image);*/
 
 article,
 aside,
@@ -2156,7 +2156,7 @@ table [class*=span],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: $iconWhiteSpritePath; /*url("../img/glyphicons-halflings.png");*/
+  background-image: $iconSpritePath; /*url("../img/glyphicons-halflings.png");*/
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }

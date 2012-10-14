@@ -5,12 +5,12 @@ html, .main { padding:0; margin:0; background:#fff }
 .clear_elements { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 .logo img { margin:0 10px 0 0;}
 .logo {
-	margin-top:-5px;
+	margin-top:5px;
 	float:left;
 	@include box-shadow(-30px -30px -10px -px hsla(0, 20%, 30%, 0.65));
-	border-left: 3px solid #FF7722; 
+/*	border-left: 3px solid #FF7722; 
 	border-right: 3px solid #FF7722; 
-	border-bottom: 3px solid #FF7722; 
+	border-bottom: 3px solid #FF7722; */
 	width:248px; 
 	height:130px; 
 	background-color: white; 
@@ -29,21 +29,21 @@ a.rm, a.com { margin-left:8px; padding:9px 12px; text-decoration:none; color:#ff
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar { margin:0; padding:0;}
 
 /* header */
-.header {@include linear-gradient(#1F1F1F, #000000); height:400px;}
+.header {/*@include linear-gradient(#1F1F1F, #000000);*/ height:400px;}
 .header_resize { margin:0 auto; padding:3px 0 0 0; width:970px;}
 /* menu */
 .menu_nav { margin:30px 0 0 0; padding:3px 0 0 0; float:right; width:600px;}
 .menu_nav ul { list-style:none; padding:0; margin:0; }
-li.menu_nav_item { float:left; padding:0 5px; }
-li.menu_nav_item a { border-right:1px solid #fff; font:normal 13px Arial, Helvetica, sans-serif; color:#fff; display:block; float:left; padding:10px 20px; }
-li.menu_nav_item a span { font:normal 11px Arial, Helvetica, sans-serif; color:#fff;  }
+li.menu_nav_item { float:left; padding:30px 5px; }
+li.menu_nav_item a { border-right:1px solid #9a9a9a; font:normal 13px Arial, Helvetica, sans-serif; color:#747473; display:block; float:left; padding:10px 20px; }
+li.menu_nav_item a span { font:normal 11px Arial, Helvetica, sans-serif; color:#747473;  }
 li.menu_nav_item a:hover { text-decoration:none; color:#FF9912;  }
 li.menu_nav_item a:hover span { text-decoration:none; color:#FF9912; }
 .menu_nav_item li.active a { text-decoration:none; color:#FF9912;  }
 .menu_nav_item li.active a span {text-decoration:none; color:#FF9912; }
 li.menu_nav_item a.last { border:0;}
 li.menu_nav_item a.drop_down_items { border:none; }
-ul.dropdown-menu{position:absolute;top:55px;border: 1px solid white; background-color: #1F1F1F;}
+ul.dropdown-menu{position:absolute;top:55px;border: 1px solid #1F1F1F; background-color: white;}
 .dropdown-menu li a:hover { color:#FF7722;}
 /*Main Picture*/
 #main_show{
