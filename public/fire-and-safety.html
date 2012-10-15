@@ -6,8 +6,7 @@
 <title>Precision Electrical</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="assets/application.css" rel="stylesheet" type="text/css" />
-<link href="assets/application.js" rel="script" type="text/javascript" />
-<script type="text/javascript" src="assets/application.js"></script>
+<script type="text/javascript" src="assets/application"></script>
 </head>
 <body>
 <div class="main">
@@ -15,7 +14,7 @@
     <div class="header_resize">
       <div class="logo">
         <a href="/">
-          <img src="assets/Logo.jpg" style="height:126px;width:198.4px" alt="logo">
+          <img src="assets/Logo.jpg" style="height:117px;width:198px" alt="logo">
         </a>
       </div>
       <!--Menu Navigation -->
@@ -24,14 +23,14 @@
           <li class="active menu_nav_item">
             <a href="index.html">
               Home<br />
-              <span>home page</span>
+              <span style="position:relative;top:2px">home page</span>
             </a>
           </li>
           <li class="menu_nav_item">
             <div class="dropdown">
               <a class="dropdown-toggle" id="services-menu-drop" data-toggle="dropdown" href="#">
                 Services <br />
-                <span>information</span>
+                <span style="position:relative;top:2px">information</span>
               </a>
               <!-- Drop Down Menu -->
               <ul class="dropdown-menu">
@@ -62,25 +61,25 @@
           <li class="menu_nav_item">
             <a href="about.html">
               About Us<br />
-              <span>company info</span>
+              <span style="position:relative;top:2px">company info</span>
             </a>
           </li>
           <li class="menu_nav_item">
             <a href="gallery.html">
               Gallery<br />
-              <span>case studies</span>
+              <span style="position:relative;top:2px">case studies</span>
             </a>
           </li>
           <li class="menu_nav_item">
             <a href="contact.html" class="last">
               Contact Us<br />
-              <span>call us now</span>
+              <span style="position:relative;top:2px">call us now</span>
           </a>
         </li>
       </ul>     
         <div class="clr"></div>
       </div>
-      <i id= "img-down" class="icon-chevron-down" style="position:relative;left:272px;top:105px;display:none"></i>
+      <i id= "icon-down" class="icon-chevron-down" style="position:relative;left:272px;top:105px;display:none;"></i>
       <div class="clr"></div>
     </div>
   </div>
@@ -173,18 +172,19 @@
 </body>
 </html>
 
-
-
 <script type="text/javascript">
              
   $(document).ready(function() {
     $('#services-menu-drop').hover(function(){
-      $('#img-down').show();
+      $('#icon-down').show();
       },
       function(){
-        $('#img-down').hide();
+        $('#icon-down').hide();
       }
     );  
   });
 
 </script>
+
+
+

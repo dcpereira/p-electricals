@@ -4,15 +4,14 @@
 <head>
 <title>Precision Electrical</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="main">
   <div class="header">
     <div class="header_resize">
       <div class="logo">
-        <a href="/">
-          <%= image_tag("Logo.jpg", height: "126"  , width: "198.4" ) %>
-        </a>
+        <%= image_tag("Logo.jpg", height: "126"  , width: "198.4" ) %>
       </div>
       <!--Menu Navigation -->
       <div class="menu_nav">
@@ -96,6 +95,109 @@
         $('#img-down').hide();
       }
     );  
-  });
+});
 
 </script>
+
+<!-- <div class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <br /> <span>information</span></a>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+  <li><a tabindex="-1" href="#">Action</a></li>
+  <li><a tabindex="-1" href="#">Another action</a></li>
+  <li><a tabindex="-1" href="#">Something else here</a></li>
+  <li class="divider"></li>
+  <li><a tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div> 
+
+
+
+
+<li class="dropdown open">
+  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+    Dropdown
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li class="">
+      <a href="#one">one</a>
+    </li>
+    <li class="">
+      <li class="divider"></li>
+      <li class="">
+        <a href="#three">three</a>
+    </li>
+</ul>
+</li>
+
+
+
+
+ <a href="services.html">Services<br /><span>information</span></a>
+
+-->
+
+
+
+
+
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Precision Electrical</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <%#= image_tag("Logo.jpg", height: "126"  , width: "198.4" ) %>
+</div>
+
+      <div class="menu_nav">
+       <ul>
+          <li class="active"><a href="index.html">Home<br />
+            <span>home page</span></a></li>
+          <li>
+            <a class="pop-over-menu" data-content="<%#= "
+            <ul>
+              <li><a tabindex='-1' href='#'>Action</a></li>
+              <li><a tabindex='-1' href='#'>Another action</a></li>
+              <li><a tabindex='-1' href='#'>Something else here</a></li>
+              <li class='divider'></li>
+              <li><a tabindex='-1' href='#'>Separated link</a></li>
+            </ul>".html_safe 
+            %>" rel="popover" href="#" data-animation="true" data-placement="bottom" data-original-title="A Title">Services<br /><span>information</span></a>
+          </li>
+          <li><a href="about.html">About Us<br />
+            <span>company info</span></a></li>
+          <li><a href="gallery.html">Gallery<br />
+            <span>case studies</span></a></li>
+          <li><a href="contact.html" class="last">Contact Us<br />
+            <span>call us now</span></a></li>
+      </ul>     
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+</div>
+  </div>
+    <div id="main_show"> <%#= image_tag("check_img3.jpg") %></div>
+
+<div clas="clear_elements" ></div>
+
+<script type="text/javascript">
+
+$(".pop-over-menu").hover(
+  function () {
+    $(this).popover('show');
+  }, 
+  function () {
+    $(this).popover('hide');
+  }
+);
+
+</script>
+ -->
