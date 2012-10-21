@@ -7,11 +7,11 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div class="main">
+<div class="main" id="back_to_top">
   <div class="header">
     <div class="header_resize">
       <div class="logo">
-        <%= image_tag("Logo.jpg", height: "126"  , width: "198.4" ) %>
+       <a href="/"><%= image_tag("Logo.jpg", height: "126"  , width: "198.4" ) %></a> 
       </div>
       <!--Menu Navigation -->
       <div class="menu_nav">
@@ -23,7 +23,7 @@
             </a>
           </li>
           <li class="menu_nav_item">
-            <a href="about.html">
+            <a href="/">
               About Us<br />
               <span>company info</span>
             </a>
@@ -37,31 +37,37 @@
               <!-- Drop Down Menu -->
               <ul class="dropdown-menu">
                 <li>
-                  <a class="drop_down_items" href="#one">Fault Finding</a>
+                  <a class="drop_down_items" href="/services#lighting_heading">Lighting</a>
                 </li>
                 <li>
-                  <a class="drop_down_items" href="#three">Rewiring</a>
+                  <a class="drop_down_items" href="/services#rewiring_heading">Rewiring</a>
                 </li>
                 <li>
-                  <a class="drop_down_items" href="#three">Lighting</a>
+                  <a class="drop_down_items" href="/services#certificate_heading">Electrical Certificates</a>
                 </li>
                 <li>
-                  <a class="drop_down_items" href="#three">Electrical Certificates</a>
+                  <a class="drop_down_items" href="/services#faults_heading">Fault Finding</a>
                 </li>
                 <li>
-                  <a class="drop_down_items" href="#three">Maintenance</a>
+                  <a class="drop_down_items" href="/heating-and-plumbing">Heating & Plumbing</a>
+                </li>
+                <li>
+                  <a class="drop_down_items" href="/fire-and-safety">Fire & Safety</a>
+                </li>
+                <li>
+                  <a class="drop_down_items" href="/electrical-instalments">Electrical Installations</a>
                 </li>
               </ul>
             </div> 
           </li>
           <li class="menu_nav_item">
-            <a href="gallery.html">
+            <a href="/">
               Rates<br />
               <span>hourly rates</span>
             </a>
           </li>
           <li class="menu_nav_item">
-            <a href="contact.html" class="last">
+            <a href="/" class="last">
               Contact Us<br />
               <span>call us now</span>
           </a>
