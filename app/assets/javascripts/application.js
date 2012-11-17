@@ -22,7 +22,7 @@
 $(document).ready(function() {
   $('#pic_slide').cycle({ 
         fx:    'fade', 
-        speed:  1000 
+        speed:  2000 
      });
 
 });
