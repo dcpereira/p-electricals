@@ -14,3 +14,16 @@
 //= require jquery_ujs
 //= require_tree .
 //=bootstrap
+
+
+
+
+             
+$(document).ready(function() {
+  $('#pic_slide').cycle({ 
+        fx:    'fade', 
+        speed:  1000 
+     });
+
+});
+

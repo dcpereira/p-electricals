@@ -75,11 +75,19 @@
       </ul>     
         <div class="clr"></div>
       </div>
-      <i id= "img-down" class="icon-chevron-down" style="position:relative;left:387px;top:105px;display:none"></i>
+      <i id= "img-down" class="icon-chevron-down" style="position:relative;left:317px;top:105px;display:none"></i>
       <div class="clr"></div>
     </div>
   </div>
-    <div id="main_show"> <%= image_tag("check_img3.jpg") %></div>
+    <div id="main_show"> 
+      <div id='main_slider_background_border' >
+    <div id="pic_slide" class="pics " style="position: relative;">
+    <span><%= image_tag "image1_done.jpg",  :class => "slide_image" , :alt => "Image1" %></span>
+    <span><%= image_tag "image2_done.jpg",  :class => "slide_image" , :alt => "Image2" %></span>
+    <span><%= image_tag "image3_done.jpg",  :class => "slide_image" , :alt => "Image3" %></span>
+    </div>
+  </div>
+  </div>
 
 <div clas="clear_elements" ></div>
 
@@ -97,4 +105,8 @@
     );  
 });
 
+  $('#pic_slide').cycle({ 
+        fx:    'fade', 
+        speed:  1000 
+     });
 </script>

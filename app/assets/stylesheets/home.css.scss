@@ -32,7 +32,7 @@ a.rm, a.com { margin-left:8px; padding:9px 12px; text-decoration:none; color:#ff
 
 /* header */
 .header {/*@include linear-gradient(#1F1F1F, #000000);*/ height:400px;}
-.header_resize { margin:0 auto; padding:3px 0 0 0; width:970px;}
+.header_resize { margin:0 auto; padding:3px 0 0 0; width:900px;}
 /* menu */
 .menu_nav { margin:30px 0 0 0; padding:3px 0 0 0; float:right; width:600px;}
 .menu_nav ul { list-style:none; padding:0; margin:0; }
@@ -54,8 +54,8 @@ ul.dropdown-menu{position:absolute;top:55px;border: 1px solid #1F1F1F; backgroun
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height:300px;
-	width:970px;
+	height:359px;
+	width:900px;
 	background-color: white;
 }
 .thumbnail_selection{
@@ -69,7 +69,7 @@ ul.dropdown-menu{position:absolute;top:55px;border: 1px solid #1F1F1F; backgroun
 .search form .button { float:left; margin:0; padding:0; border:0; position:relative; }
 /* content */
 .content { padding:10px 0 0 0;}
-.content_resize { margin:0 auto; padding:20px 0 0 0; width:970px;}
+.content_resize { margin:0 auto; padding:20px 0 0 0; width:900px;}
 .content .mainbar { margin:0; float:right;}
 .content .mainbar img { float:left; padding:4px; margin:0 10px 0 0; background-color:#dfdfdf;}
 .content .mainbar .article { margin:0 0 2px 0;  padding:30px 20px;  width:610px;}
@@ -93,7 +93,7 @@ ul.ex_menu li a:hover { text-decoration:none;}
 
 /* fbg */
 .fbg { @include linear-gradient(#1F1F1F, #000000); padding:10px 0 0 0;  margin:10px 0 0 0;}
-.fbg_resize { margin:0 auto; padding:20px 20px; width:970px;}
+.fbg_resize { margin:0 auto; padding:20px 20px; width:900px;}
 .fbg  h2 { color:#fff;}
 .fbg  p { color:#fff;}
 .fbg  a { color:#fff; text-decoration:none;}
@@ -104,7 +104,8 @@ ul.ex_menu li a:hover { text-decoration:none;}
 
 
 /* footer */
-.footer { width:970px; margin:0 auto; padding:40px 0 20px 0;}
+.co_size{ height:58px; width:58px;}
+.footer { width:900px; margin:0 auto; padding:40px 0 20px 0;}
 .footer p.lf { margin:0; padding:4px 0; float:right; width:auto; text-align:right; line-height:1.5em; color:#fff;}
 .footer p.lf a { color:#78bbe6;}
 .footer p.lr { margin:0; padding:4px 0; float:left; width:auto; line-height:1.5em; color:#fff;}
