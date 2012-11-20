@@ -698,16 +698,16 @@
   /* DROPDOWN PLUGIN DEFINITION
    * ========================== */
 
-  $.fn.dropdown = function (option) {
-    return this.each(function () {
-      var $this = $(this)
-        , data = $this.data('dropdown')
-      if (!data) $this.data('dropdown', (data = new Dropdown(this)))
-      if (typeof option == 'string') data[option].call($this)
-    })
-  }
+  // $.fn.dropdown = function (option) {
+  //   return this.each(function () {
+  //     var $this = $(this)
+  //       , data = $this.data('dropdown')
+  //     if (!data) $this.data('dropdown', (data = new Dropdown(this)))
+  //     if (typeof option == 'string') data[option].call($this)
+  //   })
+  // }
 
-  $.fn.dropdown.Constructor = Dropdown
+  // $.fn.dropdown.Constructor = Dropdown
 
 
   /* APPLY TO STANDARD DROPDOWN ELEMENTS

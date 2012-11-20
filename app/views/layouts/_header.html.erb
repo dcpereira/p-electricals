@@ -105,6 +105,15 @@
     );  
 });
 
+
+  $('div.dropdown-menu').hover(function(){
+    $('').addClass('open');
+  },
+  function(){
+    $('div.dropdown').removeClass('open ')
+  });
+
+
   $('#pic_slide').cycle({ 
         fx:    'fade', 
         speed:  1000 
