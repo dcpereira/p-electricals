@@ -92,7 +92,7 @@ ul.ex_menu li a:hover { text-decoration:none;}
 .content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
 
 /* fbg */
-.fbg { @include linear-gradient(#1F1F1F, #000000); padding:10px 0 0 0;  margin:10px 0 0 0;}
+.fbg { @include linear-gradient(#1F1F1F, #000000); padding:10px 0 0 0;  margin:10px 0 0 0; color:white; font:normal 13px Arial, Helvetica, sans-serif; }
 .fbg_resize { margin:0 auto; padding:20px 20px; width:900px;}
 .fbg  h2 { color:#fff;}
 .fbg  p { color:#fff;}
