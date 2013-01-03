@@ -28,7 +28,7 @@ $(document).ready(function() {
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
   	$('a#services-menu-drop').addClass('mobile_click');
   	$('.dropdown-menu').hide();
-  	$('a.mobile_click').click(function(){
+  	$('a.mobile_click').focus(function(){
   		window.location.href = "http://precision-electrical-uk.co.uk/services";
   	});
   }
