@@ -27,10 +27,10 @@ $(document).ready(function() {
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
   	$('a#services-menu-drop').addClass('mobile_click');
-  	$('a.mobile_click').Click(function(){
+  	$('.dropdown-menu').hide();
+  	$('a.mobile_click').click(function(){
   		window.location.href = "http://precision-electrical-uk.co.uk/services";
   	});
-  	$('.dropdown-menu').hide();
   }
 
 
