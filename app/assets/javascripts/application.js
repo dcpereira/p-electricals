@@ -32,10 +32,5 @@ $(document).ready(function() {
   		window.location.href = "http://precision-electrical-uk.co.uk/services";
   	});
   }
-
-
-
-
-
 });
 

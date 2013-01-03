@@ -220,6 +220,13 @@ Emergency lighting covers a broad range of equipment. The aim of emergency light
         $('#icon-down').hide();
       }
     );  
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+      $('a#services-menu-drop').addClass('mobile_click');
+      $('.dropdown-menu').hide();
+      $('a.mobile_click').focus(function(){
+        window.location.href = "http://precision-electrical-uk.co.uk/services";
+      });
+    }
   });
 
 </script>
