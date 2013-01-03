@@ -25,5 +25,12 @@ $(document).ready(function() {
         speed:  2000 
      });
 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  	$('#services-menu-drop').click(function(){
+  		window.location.href = '/services';
+
+  	});
+  }
+
 });
 
