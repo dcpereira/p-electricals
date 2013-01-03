@@ -26,11 +26,13 @@ $(document).ready(function() {
      });
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-  	$('#services-menu-drop').click(function(){
+  	$('a#services-menu-drop').addClass('mobile-click');
+  }
+
+    $('.mobile-click').click(function(){
   		window.location.href = '/services';
 
   	});
-  }
 
 });
 
