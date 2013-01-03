@@ -26,14 +26,14 @@ $(document).ready(function() {
      });
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-  	  	$('a#services-menu-drop').addClass('mobile-click');
+  	  	$('a#services-menu-drop').addClass('mobile_click');
   	$('.dropdown-menu').hide();
   }
 
 
 
-    $('.mobile-click').click(function(){
-  		window.location.href = '/services';
+    $('.mobile_click').click(function(){
+  		window.location.href = "/services";
 
   	});
 
