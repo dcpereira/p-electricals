@@ -22,7 +22,8 @@
 $(document).ready(function() {
   $('#pic_slide').cycle({ 
         fx:    'fade', 
-        speed:  2000 
+        speed:  2000,
+        speed: 700 
      });
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {

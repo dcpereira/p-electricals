@@ -74,7 +74,7 @@
     <div id="main_show"> 
       <div id='main_slider_background_border' >
     <div id="pic_slide" class="pics " style="position: relative;">
-    <span><%= image_tag "image1_done.jpg",  :class => "slide_image" , :alt => "Image1", :style => "display:none" %></span>
+    <span><%= image_tag "image1_done.jpg",  :class => "slide_image" , :alt => "Image1" %></span>
     <span><%= image_tag "image2_done.jpg",  :class => "slide_image" , :alt => "Image2", :style => "display:none" %></span>
     <span><%= image_tag "image3_done.jpg",  :class => "slide_image" , :alt => "Image3", :style => "display:none" %></span>
     <span><%= image_tag "image4_done.jpg",  :class => "slide_image" , :alt => "Image4", :style => "display:none" %></span>
@@ -100,8 +100,4 @@
     );  
 });
 
-  $('#pic_slide').cycle({ 
-        fx:    'fade', 
-        speed:  1000 
-     });
 </script>
