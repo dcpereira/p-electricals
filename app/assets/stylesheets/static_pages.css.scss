@@ -17,3 +17,8 @@ width:300px;
 
 
 .trust img{float:left;}
+
+
+.small_image_shadows{
+	@include box-shadow(0 0 5px 3px hsla(0%, 0%, 0%, 0.45))
+}
